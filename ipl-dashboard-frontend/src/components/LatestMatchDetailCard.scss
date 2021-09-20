@@ -1,0 +1,17 @@
+.LatestMatchDetailCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    .match-main-detail {
+        margin-top:20px;
+    }
+    .innings-detail {
+        text-align: right;
+        & > p {
+            margin-bottom: 20px;;
+        }
+
+    }
+}
